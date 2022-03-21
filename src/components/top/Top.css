@@ -1,0 +1,94 @@
+
+.top{
+    display: grid;
+    grid-template-columns: auto auto;
+    /*margin-top: 80px;*/
+    color: white;
+  }
+.top > .left{
+    width:45vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    padding-left: 65px;
+  }
+  
+.tvImage{
+    float:right; 
+    margin-right: -210px;
+    margin-top: -40px;
+  }
+
+.top > .left > h1{
+    font-size: 400%;
+    font-weight:400;
+    line-height: 90%;
+    letter-spacing: -2px;
+    overflow: visible;
+  }
+
+
+
+.top > .left > p{
+  margin: 40px 0px 40px 0px;
+  font-size: 110%;
+}
+.buttons{
+  display:flex;
+}
+
+.overlayedTop{
+  display:flex;
+  width:640px;
+  position:absolute;
+  top: 100px;
+  left:938px;
+  height: 175px;
+  overflow: hidden;
+}
+.overlayedTop > img{
+  margin: 2px 3px 2px 4px;
+}
+
+.overlayedBottom{
+  display:flex;
+  width:640px;
+  position:absolute;
+  top: 274px;
+  left:59%;
+  height: 175px;
+  overflow: hidden; 
+}
+.overlayedBottom > img{
+  margin: 2px 3px 2px 4px;
+}
+.iconsArea{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(255, 208, 0);
+}
+
+
+
+/*
+
+
+.tvImage{
+  position:relative;
+  top:0;
+  left:0;
+}
+
+.cowboy{
+  flex-shrink: 2;
+  height:100%;
+  position:absolute;
+  top: 39px;
+  left:0;
+}
+
+
+
+*/

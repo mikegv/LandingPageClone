@@ -1,0 +1,10 @@
+.clearButton{  
+  height: 50px;
+  margin-right: 20px;  
+  background-color: transparent;
+  margin-bottom: 30px;
+  font-size: larger;
+  padding: 30px 30px 30px 30px;
+  color: gray;
+  border: 1px solid gray;
+}
