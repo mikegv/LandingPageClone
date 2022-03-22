@@ -15,7 +15,8 @@ import Preview8 from '../../images/tvimages/s1668.htm'
 import Preview9 from '../../images/tvimages/s1669.htm'
 import Preview10 from '../../images/tvimages/s16610.htm'
 import Preview11 from '../../images/tvimages/s16611.htm'
-import Preview12 from '../../images/tvimages/s16612.htm'
+
+import iconList from '../../iconlist';
 
 function Top() {
     return (
@@ -32,16 +33,7 @@ function Top() {
                     Streaming services on JustWatch
                 </div>
                 <div className="iconsArea">
-                    <Icon iconName='netflix_icon.webp' iconTitle='netflix' />
-                    <Icon iconName='prime_icon.webp' iconTitle='prime' />
-                    <Icon iconName='disney_icon.webp' iconTitle='disney' />
-                    <Icon iconName='apple_icon.webp' iconTitle='apple' />
-                    <Icon iconName='appletv_icon.webp' iconTitle='appletv' />
-                    <Icon iconName='fubo_icon.webp' iconTitle='fubo' />
-                    <Icon iconName='hulu_icon.webp' iconTitle='hulu' />
-                    <Icon iconName='hbo_icon.webp' iconTitle='hbo' />
-                    <Icon iconName='hbofree_icon.webp' iconTitle='hbofree' />
-
+                    {iconList.map((item) => <Icon iconName={item} key={item} />)}
                     And many more.
                 </div>
             </div>
