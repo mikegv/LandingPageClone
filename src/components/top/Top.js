@@ -23,7 +23,7 @@ function Top() {
 
         <div className="top">
             <div className="left">
-                <h1>  </h1>
+                <h1>All your streaming services in one app</h1>
                 <p>Get personal recommendations for movies and TV shows available on Netflix, Amazon Prime Video, Disney Plus and many more</p>
 
                 <div className='buttons'>
