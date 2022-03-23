@@ -13,6 +13,7 @@ import Ring from './images/oneSearchImages/ring.webp'
 
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube, faAmazon } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -42,7 +43,12 @@ function App() {
         </div>
         <div className='right'>
           <div className='onesearchmashup'>
-            <div className='textbox'> <FontAwesomeIcon icon={faMagnifyingGlass} className='magglass' />Lord of the Rings</div>
+            <div className='textbox'>
+              <FontAwesomeIcon icon={faMagnifyingGlass} className='magglass' />
+              Lord of the Rings
+              <FontAwesomeIcon icon={faYoutube} className='youtubeicon'/>
+              <FontAwesomeIcon icon={faAmazon} className='amazonicon'/>
+            </div>
             <img src={Phone} alt='phoneimage' className='iphone' />
             <img src={Ring} alt='one ring to rule them all one ring to find them...' className='onering' />
           </div>
