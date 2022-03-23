@@ -33,7 +33,7 @@ function Top() {
                     Streaming services on JustWatch
                 </div>
                 <div className="iconsArea">
-                    {iconList.map((item) => <Icon iconName={item} key={item} />)}
+                    {iconList.map((item, index) => <Icon iconName={item} key={index} />)}
                     And many more.
                 </div>
             </div>
